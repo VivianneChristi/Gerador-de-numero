@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: red;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+button:focus {
+    background-color: rgb(70, 1, 1);
+}
+
+.random {
+    border: 1px solid rgb(87, 2, 2);
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 5rem 5rem;
+}
+
+.box::after {
+    font: 800 40px system-ui;
+    animation: counter 2s linear infinite alternate;
+    counter-reset: count 1;
+}
+
+@keyframes counter {
+    0% {
+        counter-increment: count 1;
+    }
+
+    4% {
+        counter-increment: count 2;
+    }
+
+    8% {
+        counter-increment: count 3;
+    }
+
+    12% {
+        counter-increment: count 4;
+    }
+
+    16% {
+        counter-increment: count 5;
+    }
+
+    20% {
+        counter-increment: count 6;
+    }
+
+    24% {
+        counter-increment: count 7;
+    }
+
+    28% {
+        counter-increment: count 8;
+    }
+
+    32% {
+        counter-increment: count 9;
+    }
+
+    36% {
+        counter-increment: count 10;
+    }
+
+    40% {
+        counter-increment: count 11;
+    }
+
+    44% {
+        counter-increment: count 12;
+    }
+
+    48% {
+        counter-increment: count 13;
+    }
+
+    52% {
+        counter-increment: count 14;
+    }
+
+    56% {
+        counter-increment: count 15;
+    }
+
+    60% {
+        counter-increment: count 16;
+    }
+
+    64% {
+        counter-increment: count 17;
+    }
+
+    68% {
+        counter-increment: count 18;
+    }
+
+    72% {
+        counter-increment: count 19;
+    }
+
+    76% {
+        counter-increment: count 20;
+    }
+
+    80% {
+        counter-increment: count 21;
+    }
+
+    84% {
+        counter-increment: count 22;
+    }
+
+    88% {
+        counter-increment: count 23;
+    }
+
+    92% {
+        counter-increment: count 24;
+    }
+
+    96% {
+        counter-increment: count 25;
+    }
+
+    100% {
+        counter-increment: count 26;
+    }
+}
